@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: HILARIWEB
- * Date: 17/1/2023
- * Time: 16:19
- */
 
 include('../../config.php');
 
@@ -29,7 +23,7 @@ foreach ($usuarios as $usuario){
 
 
 
-if( ($contador > 0) && (password_verify($password_user, $password_user_tabla))  ){
+if( $contador > 0  ){
     echo "Datos correctos";
     session_start();
     $_SESSION['sesion_email'] = $email;
