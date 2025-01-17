@@ -5,12 +5,9 @@ include('../../config.php');
 $email = $_POST['email'];
 $password_user = $_POST['password_user'];
 
-echo "$password_user";  
-echo password_hash($password_user, PASSWORD_DEFAULT);
-
 
 $contador = 0;
-$sql = "SELECT * FROM tb_usuarios WHERE email = '$email' ";
+$sql = "SELECT * FROM tb_usuarios WHERE email = '$email'";
 $query = $pdo->prepare($sql);
 $query->execute();
 $usuarios = $query->fetchAll(PDO::FETCH_ASSOC);
