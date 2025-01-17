@@ -163,7 +163,7 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                                                     <label for="">Imagen del producto</label>
                                                     <input type="file" name="image" class="form-control" id="file">
                                                     <br>
-                                                    <output id="list" style=""></output>
+                                                    <output id="list"></output>
                                                     <script>
                                                         function archivo(evt) {
                                                             var files = evt.target.files; // FileList object
