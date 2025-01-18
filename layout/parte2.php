@@ -5,7 +5,7 @@
         Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2025 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; <?php echo date("Y"); ?><a href="#"> - DC Software</a>.</strong> Todos los Derechos Reservados.
 </footer>
 </div>
 <!-- ./wrapper -->

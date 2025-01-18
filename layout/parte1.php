@@ -56,8 +56,8 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="<?php echo $URL;?>" class="brand-link">
-            <img src="<?php echo $URL;?>/public/images/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-            <span class="brand-text font-weight-light">SIS VENTAS</span>
+            <img src="<?php echo $URL;?>/public/images/empresa-logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+            <span class="brand-text font-weight-light">VENTAS</span>
         </a>
 
         <!-- Sidebar -->
@@ -241,7 +241,7 @@
 
                     <li class="nav-item">
                         <a href="<?php echo $URL;?>/app/controllers/login/cerrar_sesion.php" class="nav-link" style="background-color: #ca0a0b">
-                            <i class="nav-icon fas fa-door-closed"></i>
+                            <i class="nav-icon fas fa-power-off"></i>
                             <p>
                                 Cerrar Sesión
                             </p>
