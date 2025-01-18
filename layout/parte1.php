@@ -27,6 +27,23 @@
 </head>
 <body class="hold-transition sidebar-mini">
 
+<?php 
+if(isset($_SESSION['mensaje'])){ ?>
+<script>
+    swal.fire({
+        position: 'top-right',
+        title: 'Bienvenido al Sistema de Ventas',
+        text: '<?php echo $nombres_sesion;?>',
+        icon: 'success',
+        showConfirmButton: false,
+        timer: 1500 
+    })
+</script>
+
+<?php
+    unset($_SESSION['mensaje']);
+} ?>
+
 <div class="wrapper">
 
     <!-- Navbar -->

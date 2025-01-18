@@ -26,14 +26,14 @@
 
         <?php
         session_start();
-        if (isset($_SESSION['mensaje'])) {
-            $respuesta = $_SESSION['mensaje']; ?>
+        if (isset($_SESSION['sesion_email'])) {
+            $respuesta = $_SESSION['sesion_email']; ?>
             <script>
                 Swal.fire({
                     title: "Error",
                     text: "<?php echo $respuesta; ?>",
                     icon: "error",
-                    position: "center",
+                    position: "top-right",
                     showConfirmButton: false,
                     timer: 1500
                 });
