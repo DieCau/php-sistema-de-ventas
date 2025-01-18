@@ -178,7 +178,7 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/public/templeates/AdminLTE-3.2.0/package.json" />
+      <path value="$PROJECT_DIR$/public/templates/AdminLTE-3.2.0/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -250,7 +250,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\www.sistemadeventas.com\public\templeates" />
+      <recent name="C:\xampp\htdocs\www.sistemadeventas.com\public\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\www.sistemadeventas.com\public\images" />
