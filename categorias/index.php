@@ -19,7 +19,7 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                 <div class="col-sm-12">
                     <h1 class="m-0">Listado de Categorías
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-create">
-                           <i class="fa fa-plus"></i> Agregar Nuevo
+                           <i class="fa fa-plus mr-2"></i>Agregar Nuevo
                         </button>
                     </h1>
                 </div><!-- /.col -->
@@ -37,7 +37,7 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                 <div class="col-md-6">
                     <div class="card card-outline card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Categorías registrados</h3>
+                            <h3 class="card-title">Categorías Registradas</h3>
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                                 </button>
@@ -46,12 +46,12 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                         </div>
 
                         <div class="card-body" style="display: block;">
-                            <table id="example1" class="table table-bordered table-striped">
+                            <table id="example1" class="table table-bordered table-striped text-center">
                                 <thead>
                                 <tr>
-                                    <th><center>Nro</center></th>
-                                    <th><center>Nombre de la categoría</center></th>
-                                    <th><center>Acciones</center></th>
+                                    <th>Nro</th>
+                                    <th>Nombre de la categoría</th>
+                                    <th>Acciones</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -61,14 +61,14 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                                     $id_categoria = $categorias_dato['id_categoria'];
                                     $nombre_categoria = $categorias_dato['nombre_categoria']; ?>
                                     <tr>
-                                        <td><center><?php echo $contador = $contador + 1;?></center></td>
+                                        <td><?php echo $contador = $contador + 1;?></td>
                                         <td><?php echo $categorias_dato['nombre_categoria'];?></td>
                                         <td>
                                             <center>
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-success" data-toggle="modal"
+                                                    <button type="button" class="btn btn-warning" data-toggle="modal"
                                                             data-target="#modal-update<?php echo $id_categoria;?>">
-                                                        <i class="fa fa-pencil-alt"></i> Editar
+                                                        <i class="fa fa-pencil-alt mr-2"></i>Editar
                                                     </button>
                                                     <!-- modal para actualizar categorias -->
                                                     <div class="modal fade" id="modal-update<?php echo $id_categoria;?>">

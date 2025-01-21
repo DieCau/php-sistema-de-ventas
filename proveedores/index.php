@@ -37,7 +37,7 @@ include ('../app/controllers/proveedores/listado_de_proveedores.php');
                 <div class="col-md-12">
                     <div class="card card-outline card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Proveedores registrados</h3>
+                            <h3 class="card-title">Proveedores Registrados</h3>
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                                 </button>
@@ -46,17 +46,17 @@ include ('../app/controllers/proveedores/listado_de_proveedores.php');
                         </div>
 
                         <div class="card-body" style="display: block;">
-                            <table id="example1" class="table table-bordered table-striped table-sm">
+                            <table id="example1" class="table table-bordered table-striped table-sm text-center">
                                 <thead>
                                 <tr>
-                                    <th><center>Nro</center></th>
-                                    <th><center>Nombre del proveedor</center></th>
-                                    <th><center>Celular</center></th>
-                                    <th><center>Teléfono</center></th>
-                                    <th><center>Empresa</center></th>
-                                    <th><center>Email</center></th>
-                                    <th><center>Dirección</center></th>
-                                    <th><center>Acciones</center></th>
+                                    <th>Nro</th>
+                                    <th>Nombre del proveedor</th>
+                                    <th>Tel Celular</th>
+                                    <th>Tel Fijo</th>
+                                    <th>Empresa</th>
+                                    <th>Email</th>
+                                    <th>Dirección</th>
+                                    <th>Acciones</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -66,11 +66,11 @@ include ('../app/controllers/proveedores/listado_de_proveedores.php');
                                     $id_proveedor = $proveedores_dato['id_proveedor'];
                                     $nombre_proveedor = $proveedores_dato['nombre_proveedor']; ?>
                                     <tr>
-                                        <td><center><?php echo $contador = $contador + 1;?></center></td>
+                                        <td><?php echo ++$contador;?></td>
                                         <td><?php echo $nombre_proveedor;?></td>
                                         <td>
-                                            <a href="https://wa.me/591<?php echo $proveedores_dato['celular'];?>" target="_blank" class="btn btn-success">
-                                                <i class="fa fa-phone"></i>
+                                            <a href="https://wa.me/+54<?php echo $proveedores_dato['celular'];?>" target="_blank" class="btn btn-outline-success btn-sm">
+                                                <i class="bi bi-whatsapp"></i>
                                                 <?php echo $proveedores_dato['celular'];?>
                                             </a>
                                         </td>
@@ -80,7 +80,7 @@ include ('../app/controllers/proveedores/listado_de_proveedores.php');
                                         <td><?php echo $proveedores_dato['direccion'];?></td>
                                         <td>
                                                 <div class="btn-group">
-                                                    <button type="button" class="btn btn-success" data-toggle="modal"
+                                                    <button type="button" class="btn btn-warning btn-sm" data-toggle="modal"
                                                             data-target="#modal-update<?php echo $id_proveedor;?>">
                                                         <i class="fa fa-pencil-alt"></i> Editar
                                                     </button>
@@ -196,7 +196,7 @@ include ('../app/controllers/proveedores/listado_de_proveedores.php');
 
 
                                             <div class="btn-group">
-                                                <button type="button" class="btn btn-danger" data-toggle="modal"
+                                                <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
                                                         data-target="#modal-delete<?php echo $id_proveedor;?>">
                                                     <i class="fa fa-trash"></i> Borrar
                                                 </button>

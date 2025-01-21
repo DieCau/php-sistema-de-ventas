@@ -17,7 +17,7 @@ include ('../app/controllers/compras/listado_de_compras.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Listado de compras actualizado</h1>
+                    <h1 class="m-0">Listado de Compras - Actualizado</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -43,19 +43,19 @@ include ('../app/controllers/compras/listado_de_compras.php');
 
                         <div class="card-body" style="display: block;">
                             <div class="table table-responsive">
-                                <table id="example1" class="table table-bordered table-striped table-sm">
+                                <table id="example1" class="table table-bordered table-striped table-sm text-center">
                                     <thead>
                                     <tr>
-                                        <th><center>Nro</center></th>
-                                        <th><center>Nro de la compra</center></th>
-                                        <th><center>Producto</center></th>
-                                        <th><center>Fecha de compra</center></th>
-                                        <th><center>Proveedor</center></th>
-                                        <th><center>Comprobante</center></th>
-                                        <th><center>Usuario</center></th>
-                                        <th><center>Precio compra</center></th>
-                                        <th><center>Cantidad</center></th>
-                                        <th><center>Acciones</center></th>
+                                        <th>Nro</th>
+                                        <th>Nro de la compra</th>
+                                        <th>Producto</th>
+                                        <th>Fecha de compra</th>
+                                        <th>Proveedor</th>
+                                        <th>Comprobante</th>
+                                        <th>Usuario</th>
+                                        <th>Precio Compra</th>
+                                        <th>Cantidad</th>
+                                        <th>Acciones</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -64,7 +64,7 @@ include ('../app/controllers/compras/listado_de_compras.php');
                                     foreach ($compras_datos as $compras_dato){
                                         $id_compra = $compras_dato['id_compra']; ?>
                                         <tr>
-                                            <td><?php echo $contador = $contador + 1;?></td>
+                                            <td><?php echo $contador = ++$contador;?></td>
                                             <td><?php echo $compras_dato['nro_compra'];?></td>
                                             <td>
                                                 <button type="button" class="btn btn-warning" data-toggle="modal"
