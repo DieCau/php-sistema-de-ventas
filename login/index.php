@@ -7,7 +7,7 @@
     <title>Sistema de ventas</title>
 
     <!-- Google Font: Source Sans Pro -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="../public/templates/AdminLTE-3.2.0/plugins/fontawesome-free/css/all.min.css">
     <!-- icheck bootstrap -->
@@ -24,26 +24,26 @@
         <!-- /.login-logo -->
 
 
-        <?php
-        session_start();
-        if (isset($_SESSION['sesion_email'])) {
-            $respuesta = $_SESSION['sesion_email']; ?>
-            <script>
-                Swal.fire({
-                    title: "Error",
-                    text: "<?php echo $respuesta; ?>",
-                    icon: "error",
-                    position: "top-right",
-                    showConfirmButton: false,
-                    timer: 1500
-                });
-            </script>
-        <?php
-            session_destroy();
-        }
-        ?>
-
-
+<?php
+session_start();
+if (isset($_SESSION['mensaje'])) {
+    $respuesta = $_SESSION['mensaje']; ?>
+    <script>
+        
+        Swal.fire({
+            title: "Error",
+            text: "<?php echo $respuesta; ?>",
+            icon: "error",
+            position: "center",
+            showConfirmButton: false,
+            timer: 1500,
+        });
+        
+    </script>
+<?php
+    session_destroy();
+}
+?>
 
         <br>
         <div class="card card-outline card-primary" style="background-color: transparent; border: 2px solid white; backdrop-filter: blur(10px);">
@@ -51,7 +51,7 @@
                 <a href="../public/templates/AdminLTE-3.2.0/index2.html" class="h1 text-white"><b>Sistema de </b>VENTAS</a>
             </div>
             <div class="card-body">
-                <p class="login-box-msg text-white">Ingrese para Iniciar su Sesion</p>
+                <p class="login-box-msg text-white">Ingrese para Iniciar su Sesión</p>
 
                 <form action="../app/controllers/login/ingreso.php" method="post" autocomplete="off">
                     <div class="input-group mb-3">

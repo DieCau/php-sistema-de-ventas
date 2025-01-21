@@ -7,7 +7,7 @@
     <title>Sistema de ventas</title>
 
     <!-- Google Font: Source Sans Pro -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="<?php echo $URL;?>/public/templates/AdminLTE-3.2.0/plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
@@ -27,7 +27,7 @@
 </head>
 <body class="hold-transition sidebar-mini">
 
-<?php 
+<!-- <?php 
 if(isset($_SESSION['mensaje'])){ ?>
 <script>
     swal.fire({
@@ -42,7 +42,7 @@ if(isset($_SESSION['mensaje'])){ ?>
 
 <?php
     unset($_SESSION['mensaje']);
-} ?>
+} ?> -->
 
 <div class="wrapper">
 
@@ -74,7 +74,7 @@ if(isset($_SESSION['mensaje'])){ ?>
         <!-- Brand Logo -->
         <a href="<?php echo $URL;?>" class="brand-link">
             <img src="<?php echo $URL;?>/public/images/empresa-logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-            <span class="brand-text font-weight-light">VENTAS</span>
+            <span class="brand-text font-weight-light">SYS VENTAS</span>
         </a>
 
         <!-- Sidebar -->

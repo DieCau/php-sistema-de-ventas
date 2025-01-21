@@ -19,9 +19,9 @@ foreach ($usuarios as $usuario){
 }
 
 if($contador == 0) {
-    echo "Datos incorrectos, vuelva a intentarlo";
+    //echo "Datos incorrectos, vuelva a intentarlo";
     session_start();
-    $_SESSION['mensaje'] = "Error datos incorrectos";
+    $_SESSION['mensaje'] = "Datos incorrectos. Vuelva a intentarlo...";
     header("Location: ".$URL."/login");
  } else {
      echo "Datos correctos";
