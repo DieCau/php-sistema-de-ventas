@@ -1,5 +1,7 @@
 <?php
 
+//cerrar sesion
+
 include ('../../config.php');
 
 session_start();
