@@ -1,11 +1,7 @@
 <!-- Main Footer -->
-<footer class="main-footer">
-    <!-- To the right -->
-    <div class="float-right d-none d-sm-inline">
-        Anything you want
-    </div>
+<footer class="main-footer bg-dark text-center elevation-5">
     <!-- Default to the left -->
-    <strong>Copyright &copy; <?php echo date("Y"); ?><a href="#"> - DC Software</a>.</strong> Todos los Derechos Reservados.
+    <strong>Copyright &copy; <?php echo date("Y"); ?><a href="#"> - DC Software</a>. Todos los Derechos Reservados.</strong> 
 </footer>
 </div>
 <!-- ./wrapper -->

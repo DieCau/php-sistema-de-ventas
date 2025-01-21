@@ -13,7 +13,7 @@ include ('../layout/parte1.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Registro de un Rol</h1>
+                    <h1 class="m-0">Registrar Nuevo Rol</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -48,8 +48,8 @@ include ('../layout/parte1.php');
                                         </div>
                                         <hr>
                                         <div class="form-group">
-                                            <a href="index.php" class="btn btn-secondary">Cancelar</a>
-                                            <button type="submit" class="btn btn-primary">Guardar</button>
+                                            <a href="index.php" class="btn btn-secondary">Cancelar<i class="bi bi-x-circle ml-2"></i></a>
+                                            <button type="submit" class="btn btn-primary">Guardar<i class="bi bi-save ml-2"></i></button>
                                         </div>
                                     </form>
                                 </div>

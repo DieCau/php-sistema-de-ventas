@@ -16,6 +16,9 @@
     <!-- Libreria Sweetallert2-->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <!-- DataTables -->
     <link rel="stylesheet" href="<?php echo $URL;?>/public/templates/AdminLTE-3.2.0/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="<?php echo $URL;?>/public/templates/AdminLTE-3.2.0/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
@@ -70,7 +73,7 @@ if(isset($_SESSION['mensaje'])){ ?>
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <aside class="main-sidebar sidebar-dark-primary">
         <!-- Brand Logo -->
         <a href="<?php echo $URL;?>" class="brand-link">
             <img src="<?php echo $URL;?>/public/images/empresa-logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">

@@ -17,7 +17,7 @@ include ('../app/controllers/usuarios/listado_de_usuarios.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Listado de usuario</h1>
+                    <h1 class="m-0">Listado de Usuarios</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -33,7 +33,7 @@ include ('../app/controllers/usuarios/listado_de_usuarios.php');
                 <div class="col-md-12">
                     <div class="card card-outline card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Usuarios registrado</h3>
+                            <h3 class="card-title">Usuarios Registrados</h3>
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
                                 </button>
@@ -42,14 +42,14 @@ include ('../app/controllers/usuarios/listado_de_usuarios.php');
                         </div>
 
                         <div class="card-body" style="display: block;">
-                            <table id="example1" class="table table-bordered table-striped">
+                            <table id="example1" class="table table-bordered table-striped text-center">
                                 <thead>
                                 <tr>
-                                    <th><center>Nro</center></th>
-                                    <th><center>Nombres</center></th>
-                                    <th><center>Email</center></th>
-                                    <th><center>Rol del usuario</center></th>
-                                    <th><center>Acciones</center></th>
+                                    <th>Nro</th>
+                                    <th>Nombres</th>
+                                    <th>Email</th>
+                                    <th>Rol del Usuario</th>
+                                    <th>Acciones</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -65,9 +65,9 @@ include ('../app/controllers/usuarios/listado_de_usuarios.php');
                                         <td>
                                             <center>
                                                 <div class="btn-group">
-                                                    <a href="show.php?id=<?php echo $id_usuario; ?>" type="button" class="btn btn-info"><i class="fa fa-eye"></i> Ver</a>
-                                                    <a href="update.php?id=<?php echo $id_usuario; ?>" type="button" class="btn btn-success"><i class="fa fa-pencil-alt"></i> Editar</a>
-                                                    <a href="delete.php?id=<?php echo $id_usuario; ?>" type="button" class="btn btn-danger"><i class="fa fa-trash"></i> Borrar</a>
+                                                    <a href="show.php?id=<?php echo $id_usuario; ?>" type="button" class="btn btn-info">Ver<i class="fa fa-eye ml-2"></i></a>
+                                                    <a href="update.php?id=<?php echo $id_usuario; ?>" type="button" class="btn btn-warning mx-2">Editar<i class="fa fa-pencil-alt ml-2"></i></a>
+                                                    <a href="delete.php?id=<?php echo $id_usuario; ?>" type="button" class="btn btn-danger">Borrar<i class="fa fa-trash ml-2"></i></a>
                                                 </div>
                                             </center>
                                         </td>

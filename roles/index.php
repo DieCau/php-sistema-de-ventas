@@ -61,8 +61,8 @@ include ('../app/controllers/roles/listado_de_roles.php');
                                         <td>
                                             <center>
                                                 <div class="btn-group">
-                                                    <a href="update.php?id=<?php echo $id_rol; ?>" type="button" class="btn btn-success">
-                                                        <i class="fa fa-pencil-alt"></i> Editar</a>
+                                                    <a href="update.php?id=<?php echo $id_rol; ?>" type="button" class="btn btn-warning">
+                                                        Editar<i class="fa fa-pencil-alt ml-2"></i></a>
                                                 </div>
                                             </center>
                                         </td>

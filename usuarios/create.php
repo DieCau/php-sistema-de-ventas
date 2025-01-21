@@ -15,7 +15,7 @@ include ('../app/controllers/roles/listado_de_roles.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Registro de un nuevo usuario</h1>
+                    <h1 class="m-0">Registro de un Nuevo Usuario</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -48,11 +48,11 @@ include ('../app/controllers/roles/listado_de_roles.php');
                                             <input type="text" name="nombres" class="form-control" placeholder="Escriba aquí el nombre del nuevo usuario..." required>
                                         </div>
                                         <div class="form-group">
-                                            <label for="">Email</label>
+                                            <label for="">E-mail</label>
                                             <input type="email" name="email" class="form-control" placeholder="Escriba aquí el correo del nuevo usuario..." required>
                                         </div>
                                         <div class="form-group">
-                                            <label for="">Rol del usurio</label>
+                                            <label for="">Rol del Usuario</label>
                                             <select name="rol" id="" class="form-control">
                                                 <?php
                                                 foreach ($roles_datos as $roles_dato){?>
@@ -68,13 +68,13 @@ include ('../app/controllers/roles/listado_de_roles.php');
                                             <input type="text" name="password_user" class="form-control" required>
                                         </div>
                                         <div class="form-group">
-                                            <label for="">Repita la Contraseña</label>
+                                            <label for="">Repetir Contraseña</label>
                                             <input type="text" name="password_repeat" class="form-control" required>
                                         </div>
                                         <hr>
                                         <div class="form-group">
-                                            <a href="index.php" class="btn btn-secondary">Cancelar</a>
-                                            <button type="submit" class="btn btn-primary">Guardar</button>
+                                            <a href="index.php" class="btn btn-secondary">Cancelar<i class="bi bi-x-circle ml-2"></i></a>
+                                            <button type="submit" class="btn btn-primary">Guardar<i class="bi bi-person-fill-check ml-2"></i></button>
                                         </div>
                                     </form>
                                 </div>
@@ -93,5 +93,3 @@ include ('../app/controllers/roles/listado_de_roles.php');
 <!-- /.content-wrapper -->
 
 <?php include ('../layout/parte2.php'); ?>
-
-
