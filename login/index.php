@@ -51,7 +51,7 @@ if (isset($_SESSION['mensaje'])) {
                 <a href="../public/templates/AdminLTE-3.2.0/index2.html" class="h1 text-white"><b>Sistema de </b>VENTAS</a>
             </div>
             <div class="card-body">
-                <p class="login-box-msg text-white">Ingrese para Iniciar su Sesión</p>
+                <p class="login-box-msg text-white">Iniciar Sesión</p>
 
                 <form action="../app/controllers/login/ingreso.php" method="post" autocomplete="off">
                     <div class="input-group mb-3">

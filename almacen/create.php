@@ -51,7 +51,7 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                                                 <div class="row">
                                                     <div class="col-md-4">
                                                         <div class="form-group">
-                                                            <label for="">Código:</label>
+                                                            <label for="">Codigo</label>
                                                             <?php
                                                             function ceros($numero){
                                                                 $len=0;
@@ -66,7 +66,7 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                                                             }
                                                             $contador_de_id_productos = 1;
                                                             foreach ($productos_datos as $productos_dato){
-                                                                $contador_de_id_productos = $contador_de_id_productos +1;
+                                                                $contador_de_id_productos++;
                                                             }
                                                             ?>
                                                             <input type="text" class="form-control"
@@ -76,7 +76,7 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="form-group">
-                                                            <label for="">Categoría:</label>
+                                                            <label for="">Categoria</label>
                                                             <div style="display: flex">
                                                                 <select name="id_categoria" id="" class="form-control" required>
                                                                     <?php
@@ -94,7 +94,7 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                                                     </div>
                                                     <div class="col-md-4">
                                                         <div class="form-group">
-                                                            <label for="">Nombre del producto:</label>
+                                                            <label for="">Nombre del Producto</label>
                                                             <input type="text" name="nombre" class="form-control" required>
                                                         </div>
                                                     </div>
@@ -110,7 +110,7 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="form-group">
-                                                            <label for="">Descripción del producto:</label>
+                                                            <label for="">Descripcion del Producto</label>
                                                             <textarea name="descripcion" id="" cols="30" rows="2" class="form-control"></textarea>
                                                         </div>
                                                     </div>
@@ -120,37 +120,37 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                                                 <div class="row">
                                                     <div class="col-md-2">
                                                         <div class="form-group">
-                                                            <label for="">Stock:</label>
+                                                            <label for="">Stock</label>
                                                             <input type="number" name="stock" class="form-control" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-2">
                                                         <div class="form-group">
-                                                            <label for="">Stock mínimo:</label>
+                                                            <label for="">Stock Minimo</label>
                                                             <input type="number" name="stock_minimo" class="form-control">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-2">
                                                         <div class="form-group">
-                                                            <label for="">Stock máximo:</label>
+                                                            <label for="">Stock Maximo</label>
                                                             <input type="number" name="stock_maximo" class="form-control">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-2">
                                                         <div class="form-group">
-                                                            <label for="">Precio compra:</label>
+                                                            <label for="">Precio Compra</label>
                                                             <input type="number" name="precio_compra" class="form-control" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-2">
                                                         <div class="form-group">
-                                                            <label for="">Precio venta:</label>
+                                                            <label for="">Precio Venta</label>
                                                             <input type="number" name="precio_venta" class="form-control" required>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-2">
                                                         <div class="form-group">
-                                                            <label for="">Fecha de ingreso:</label>
+                                                            <label for="">Fecha de Ingreso</label>
                                                             <input type="date" name="fecha_ingreso" class="form-control" required>
                                                         </div>
                                                     </div>
@@ -160,7 +160,7 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="form-group">
-                                                    <label for="">Imagen del producto</label>
+                                                    <label for="">Imagen del Producto</label>
                                                     <input type="file" name="image" class="form-control" id="file">
                                                     <br>
                                                     <output id="list"></output>
@@ -188,10 +188,6 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
                                                 </div>
                                             </div>
                                         </div>
-
-
-
-
 
                                         <hr>
                                         <div class="form-group">
