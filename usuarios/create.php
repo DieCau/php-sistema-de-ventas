@@ -74,7 +74,7 @@ include ('../app/controllers/roles/listado_de_roles.php');
                                         <hr>
                                         <div class="form-group">
                                             <a href="index.php" class="btn btn-secondary">Cancelar<i class="bi bi-x-circle ml-2"></i></a>
-                                            <button type="submit" class="btn btn-primary">Guardar<i class="bi bi-person-fill-check ml-2"></i></button>
+                                            <button type="submit" class="btn btn-primary">Guardar<i class="bi bi-person-add ml-2"></i></button>
                                         </div>
                                     </form>
                                 </div>

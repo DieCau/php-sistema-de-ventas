@@ -19,6 +19,6 @@ $URL = "http://localhost/sistemadeventas";
 
 // Declaro la zona horaria
 date_default_timezone_set("America/Argentina/Tucuman");
-$fechaHora = date('Y-m-d H:i:s');
+$fechaHora = date('d-m-Y H:i:s');
 
 

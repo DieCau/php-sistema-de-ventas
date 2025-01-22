@@ -16,7 +16,7 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Registro de un nuevo producto</h1>
+                    <h1 class="m-0">Registro Nuevo Producto</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -195,8 +195,8 @@ include ('../app/controllers/categorias/listado_de_categoria.php');
 
                                         <hr>
                                         <div class="form-group">
-                                            <a href="index.php" class="btn btn-secondary">Cancelar</a>
-                                            <button type="submit" class="btn btn-primary">Guardar producto</button>
+                                            <a href="index.php" class="btn btn-secondary">Cancelar<i class="bi bi-x-circle ml-2"></i></a>
+                                            <button type="submit" class="btn btn-primary">Guardar producto<i class="bi bi-floppy ml-2"></i></button>
                                         </div>
                                     </form>
                                 </div>
