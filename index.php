@@ -94,7 +94,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             }
                             ?>
                             <h3><?php echo $contador_de_categorias;?></h3>
-                            <p>Categorías Registrados</p>
+                            <p>Categorías Registradas</p>
                         </div>
                         <a href="<?php echo $URL;?>/categorias">
                             <div class="icon">

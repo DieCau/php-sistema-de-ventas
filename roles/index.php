@@ -17,7 +17,7 @@ include ('../app/controllers/roles/listado_de_roles.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Listado de roles</h1>
+                    <h1 class="m-0">Listado de Roles</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -71,11 +71,11 @@ include ('../app/controllers/roles/listado_de_roles.php');
                                 }
                                 ?>
                                 </tbody>
-                                <tfoot>
+                                <tfoot class="text-center">
                                 <tr>
-                                    <th><center>Nro</center></th>
-                                    <th><center>Nombre del rol</center></th>
-                                    <th><center>Acciones</center></th>
+                                    <th>Nro</th>
+                                    <th>Nombre del rol</th>
+                                    <th>Acciones</th>
                                 </tr>
                                 </tfoot>
                             </table>

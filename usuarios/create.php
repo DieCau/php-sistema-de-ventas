@@ -15,7 +15,7 @@ include ('../app/controllers/roles/listado_de_roles.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Registro de un Nuevo Usuario</h1>
+                    <h1 class="m-0">Registro Nuevo Usuario</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->

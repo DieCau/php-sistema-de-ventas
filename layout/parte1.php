@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sistema de ventas</title>
+    <title>Sistema de Ventas</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
@@ -57,7 +57,7 @@ if(isset($_SESSION['mensaje'])){ ?>
                 <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
             </li>
             <li class="nav-item d-none d-sm-inline-block">
-                <a href="#" class="nav-link">SISTEMA DE VENTAS </a>
+                <a href="#" class="nav-link">SISTEMA DE VENTAS</a>
             </li>
         </ul>
 
@@ -114,13 +114,13 @@ if(isset($_SESSION['mensaje'])){ ?>
                             <li class="nav-item">
                                 <a href="<?php echo $URL;?>/usuarios" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Listado de usuarios</p>
+                                    <p>Listado de Usuarios</p>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="<?php echo $URL;?>/usuarios/create.php" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Creación de usuario</p>
+                                    <p>Registro Nuevo Usuario</p>
                                 </a>
                             </li>
                         </ul>
@@ -144,13 +144,13 @@ if(isset($_SESSION['mensaje'])){ ?>
                             <li class="nav-item">
                                 <a href="<?php echo $URL;?>/roles" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Listado de roles</p>
+                                    <p>Listado de Roles</p>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="<?php echo $URL;?>/roles/create.php" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Creación de rol</p>
+                                    <p>Registro Nuevo Rol</p>
                                 </a>
                             </li>
                         </ul>
@@ -172,7 +172,7 @@ if(isset($_SESSION['mensaje'])){ ?>
                             <li class="nav-item">
                                 <a href="<?php echo $URL;?>/categorias" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Listado de categorías</p>
+                                    <p>Listado de Categorías</p>
                                 </a>
                             </li>
                         </ul>
@@ -195,13 +195,13 @@ if(isset($_SESSION['mensaje'])){ ?>
                             <li class="nav-item">
                                 <a href="<?php echo $URL;?>/almacen" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Listado de productos</p>
+                                    <p>Listado de Productos</p>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="<?php echo $URL;?>/almacen/create.php" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Creación de productos</p>
+                                    <p>Ingresar Producto</p>
                                 </a>
                             </li>
                         </ul>
@@ -222,13 +222,13 @@ if(isset($_SESSION['mensaje'])){ ?>
                             <li class="nav-item">
                                 <a href="<?php echo $URL;?>/compras" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Listado de compras</p>
+                                    <p>Listado de Compras</p>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="<?php echo $URL;?>/compras/create.php" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Creación de compra</p>
+                                    <p>Creación de Compra</p>
                                 </a>
                             </li>
                         </ul>
@@ -249,7 +249,7 @@ if(isset($_SESSION['mensaje'])){ ?>
                             <li class="nav-item">
                                 <a href="<?php echo $URL;?>/proveedores" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
-                                    <p>Listado de proveedores</p>
+                                    <p>Listado de Proveedores</p>
                                 </a>
                             </li>
                         </ul>

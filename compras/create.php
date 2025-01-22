@@ -17,7 +17,7 @@ include ('../app/controllers/compras/listado_de_compras.php');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1 class="m-0">Registro de una nueva compra</h1>
+                    <h1 class="m-0">Registro Nueva Compra</h1>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -45,7 +45,7 @@ include ('../app/controllers/compras/listado_de_compras.php');
 
                                <div class="card-body" style="display: block;">
                                    <div style="display: flex">
-                                       <h5>Datos del producto </h5>
+                                       <h5>Datos del Producto</h5>
                                        <div style="width: 20px"></div>
                                        <button type="button" class="btn btn-primary" data-toggle="modal"
                                                data-target="#modal-buscar_producto">
@@ -64,21 +64,21 @@ include ('../app/controllers/compras/listado_de_compras.php');
                                                    </div>
                                                    <div class="modal-body">
                                                        <div class="table table-responsive">
-                                                           <table id="example1" class="table table-bordered table-striped table-sm">
+                                                           <table id="example1" class="table table-bordered table-striped table-sm text-center">
                                                                <thead>
                                                                <tr>
-                                                                   <th><center>Nro</center></th>
-                                                                   <th><center>Selecionar</center></th>
-                                                                   <th><center>Código</center></th>
-                                                                   <th><center>Categoría</center></th>
-                                                                   <th><center>Imagen</center></th>
-                                                                   <th><center>Nombre</center></th>
-                                                                   <th><center>Descripción</center></th>
-                                                                   <th><center>Stock</center></th>
-                                                                   <th><center>Precio compra</center></th>
-                                                                   <th><center>Precio venta</center></th>
-                                                                   <th><center>Fecha compra</center></th>
-                                                                   <th><center>Usuario</center></th>
+                                                                   <th>Nro</th>
+                                                                   <th>Selecionar</th>
+                                                                   <th>Cod</th>
+                                                                   <th>Categoría</th>
+                                                                   <th>Imagen</th>
+                                                                   <th>Nombre</th>
+                                                                   <th>Descripción</th>
+                                                                   <th>Stock</th>
+                                                                   <th>Precio Compra</th>
+                                                                   <th>Precio Venta</th>
+                                                                   <th>Fecha Compra</th>
+                                                                   <th>Usuario</th>
                                                                </tr>
                                                                </thead>
                                                                <tbody>
