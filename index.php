@@ -30,7 +30,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
     <div class="content">
         <div class="container-fluid">
 
-            Contenido del sistema
+            Secciones
             <br><br>
 
             <div class="row">
@@ -42,7 +42,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             <?php
                             $contador_de_usuarios = 0;
                             foreach ($usuarios_datos as $usuarios_dato){
-                                $contador_de_usuarios = $contador_de_usuarios + 1;
+                                ++$contador_de_usuarios;
                             }
                             ?>
                             <h3><?php echo $contador_de_usuarios;?></h3>
@@ -66,7 +66,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             <?php
                             $contador_de_roles = 0;
                             foreach ($roles_datos as $roles_dato){
-                                $contador_de_roles = $contador_de_roles + 1;
+                                ++$contador_de_roles;
                             }
                             ?>
                             <h3><?php echo $contador_de_roles;?></h3>
@@ -90,7 +90,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             <?php
                             $contador_de_categorias = 0;
                             foreach ($categorias_datos as $categorias_dato){
-                                $contador_de_categorias = $contador_de_categorias + 1;
+                                ++$contador_de_categorias;
                             }
                             ?>
                             <h3><?php echo $contador_de_categorias;?></h3>
@@ -114,7 +114,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             <?php
                             $contador_de_productos = 0;
                             foreach ($productos_datos as $productos_dato){
-                                $contador_de_productos = $contador_de_productos + 1;
+                                ++$contador_de_productos;
                             }
                             ?>
                             <h3><?php echo $contador_de_productos;?></h3>
@@ -141,7 +141,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             <?php
                             $contador_de_proveedores = 0;
                             foreach ($proveedores_datos as $proveedores_dato){
-                                $contador_de_proveedores = $contador_de_proveedores + 1;
+                                ++$contador_de_proveedores;
                             }
                             ?>
                             <h3><?php echo $contador_de_proveedores;?></h3>
@@ -149,7 +149,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                         </div>
                         <a href="<?php echo $URL;?>/proveedores">
                             <div class="icon">
-                                <i class="fas fa-car"></i>
+                                <i class="fas fa-truck"></i>
                             </div>
                         </a>
                         <a href="<?php echo $URL;?>/proveedores" class="small-box-footer">
