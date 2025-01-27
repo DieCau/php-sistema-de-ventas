@@ -25,9 +25,8 @@ VALUES (:nombres,:email,:id_rol,:password_user,:fyh_creacion)");
     header('Location: '.$URL.'/usuarios/');
 
 }else{
-   // echo "error las contraseñas no son iguales";
     session_start();
-    $_SESSION['mensaje'] = "Error las contraseñas no son iguales";
+    $_SESSION['mensaje'] = "Error. Las contraseñas no coinciden";
     header('Location: '.$URL.'/usuarios/create.php');
 }
 

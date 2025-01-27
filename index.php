@@ -54,7 +54,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             </div>
                         </a>
                         <a href="<?php echo $URL;?>/usuarios" class="small-box-footer">
-                            Más detalle <i class="fas fa-arrow-circle-right"></i>
+                            Ver Más...<i class="ml-1 fas fa-arrow-circle-right"></i>
                         </a>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             </div>
                         </a>
                         <a href="<?php echo $URL;?>/roles" class="small-box-footer">
-                            Más detalle <i class="fas fa-arrow-circle-right"></i>
+                            Ver Más...<i class="ml-1 fas fa-arrow-circle-right"></i>
                         </a>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             </div>
                         </a>
                         <a href="<?php echo $URL;?>/categorias" class="small-box-footer">
-                            Más detalle <i class="fas fa-arrow-circle-right"></i>
+                            Ver Más...<i class="ml-1 fas fa-arrow-circle-right"></i>
                         </a>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             </div>
                         </a>
                         <a href="<?php echo $URL;?>/almacen" class="small-box-footer">
-                            Más detalle <i class="fas fa-arrow-circle-right"></i>
+                            Ver Más...<i class="ml-1 fas fa-arrow-circle-right"></i>
                         </a>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
                             </div>
                         </a>
                         <a href="<?php echo $URL;?>/proveedores" class="small-box-footer">
-                            Más detalle <i class="fas fa-arrow-circle-right"></i>
+                            Ver Más...<i class="ml-1 fas fa-arrow-circle-right"></i>
                         </a>
                     </div>
                 </div>
@@ -170,10 +170,3 @@ include ('app/controllers/proveedores/listado_de_proveedores.php');
 <!-- /.content-wrapper -->
 
 <?php include ('layout/parte2.php'); ?>
-
-
-
-
-
-
-

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sistema de ventas</title>
+    <link rel="icon" href="../camion-de-reparto.ico" type="image/x-icon">
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
@@ -41,7 +42,8 @@ if (isset($_SESSION['mensaje'])) {
         
     </script>
 <?php
-    session_destroy();
+    unset($_SESSION['mensaje']); 
+    // session_destroy();
 }
 ?>
 

@@ -58,7 +58,7 @@ include ('../app/controllers/usuarios/listado_de_usuarios.php');
                                 foreach ($usuarios_datos as $usuarios_dato){
                                     $id_usuario = $usuarios_dato['id_usuario']; ?>
                                     <tr>
-                                        <td><center><?php echo $contador = $contador + 1;?></center></td>
+                                        <td><center><?php echo ++$contador;?></center></td>
                                         <td><?php echo $usuarios_dato['nombres'];?></td>
                                         <td><?php echo $usuarios_dato['email'];?></td>
                                         <td><center><?php echo $usuarios_dato['rol'];?></center></td>
