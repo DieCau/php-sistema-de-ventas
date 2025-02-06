@@ -1,3 +1,4 @@
+<!-- Main de Proveedores -->
 <?php
 include('../app/config.php');
 include('../layout/sesion.php');
