@@ -1,3 +1,4 @@
+<!-- Chequeamos si hay sesion abierta o no -->
 <?php
 
 session_start();
