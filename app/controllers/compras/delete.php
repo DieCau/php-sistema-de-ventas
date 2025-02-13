@@ -8,9 +8,6 @@ $id_producto = $_GET['id_producto'];
 $cantidad_compra = $_GET['cantidad_compra'];
 $stock_actual = $_GET['stock_actual'];
 
-//echo $id_compra." - ".$id_producto." - ".$cantidad_compra." - ".$stock_actual;
-
-
 $pdo->beginTransaction();
 
 $sentencia = $pdo->prepare("DELETE FROM tb_compras WHERE id_compra=:id_compra");
