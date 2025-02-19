@@ -1,3 +1,4 @@
+<!-- Main de ventas -->
 <?php 
 
 ?>
