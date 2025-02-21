@@ -53,6 +53,32 @@ include('../layout/parte1.php');
 
       </div>
 
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card card-outline card-primary">
+            <div class="card-header">
+              <h3 class="card-title"><i class="fa fa-user-check"></i> Datos del Cliente
+              </h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="card-body">
+              fdsafds
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="respuesta_create"></div>
+
+      </div>
+
       <!-- /.row -->
     </div><!-- /.container-fluid -->
   </div>
